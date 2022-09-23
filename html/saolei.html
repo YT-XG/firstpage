@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <title>当当当，扫雷哒呦</title>
+        <link rel="stylesheet" href="../css/saolei-css.css">
+    </head>
+    <body style="cursor: default; user-select: none;">
+
+        <table id = 'info'  border="5px solid" height="40px" >
+            <tr><td id = 'restMine' width="120px"></td>
+                <td width="120px"><select name="difficulty" onchange='btnChange(this[selectedIndex].value);'>
+                    <option value="0">初级</option>
+                    <option value="1">中级</option>
+                    <option value="2">高级</option>
+                </select></td>
+                <td id="time" width="120px">0:0</td>
+            </tr>
+        </table>
+        <div id="box" ></div>
+
+        <a href="saolei.html"><input type="button" value="重置"></a>
+        <span id="sum">恭喜你，你获得一条线索“ 
+            <span id="ans" style="position: initial ;"></span>
+             ”，
+             <span id="miao" style="position: initial ;"></span> 
+             秒后自动返回主站
+        </span>
+    </body>
+
+    <script src="../js/saolei-js.js"></script>
+
+    
+</html>

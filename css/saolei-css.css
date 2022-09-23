@@ -1,0 +1,70 @@
+.grid{
+    width: 18px;
+    height: 18px;
+    background-color: #30c00c;
+    float: left;
+    border: 1px black solid;
+}
+.mine{
+    width: 18px;
+    height: 18px;
+    float: left;
+    background-image:url(mine.png);
+    background-size: 18px 18px;
+    border: 1px black solid;
+}
+.flag{
+    width: 18px;
+    height: 18px;
+    float: left;
+    background-image:url(flag.png);
+    background-size: 18px 18px;
+    border: 1px black solid;
+}
+.number{
+    width: 18px;
+    height: 18px;
+    float:left;
+    text-align: center;
+    line-height: 20px;
+    border: 1px black solid;
+    background-color: rgb(235, 14, 32);
+    font-weight: bold;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    border: black 5px solid;
+    position: absolute;
+    left:calc(50% - 100px);
+    top: 100px;
+    
+}
+#info{
+    position: absolute;
+    left:calc(50% - 185px);
+    top: 30px;
+    text-align: center;
+}
+#tip{
+    position: absolute;
+    bottom: 160px;
+    right: calc(50% - 70px);
+}
+span{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    color: red;
+    font-size: 20px;
+}
+input{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+#sum{
+    display: none;
+}

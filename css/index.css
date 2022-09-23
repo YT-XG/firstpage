@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 225, 225);
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color: #00aeec;  
+}
+.pc1{
+    width: 350px;
+    height: 292px;
+    margin: auto;
+}
+.pc1 img{
+    width: 350px;
+}
+.tip1{
+    margin: auto;
+    width: 350px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.box{
+    position: relative;
+    width: 400px;
+    height: 31px;
+    border-bottom: 1px solid #ccc;
+    margin: 0px auto;
+}
+.box input{
+    width: 370px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    background-color: rgb(236, 225, 225);
+}
+.box img{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    width: 20px;
+}
+.botton{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+.botton input{
+    width: 200px;
+    height: 50px;
+    margin: 5px auto;
+}
+.guanqia{
+    margin: auto;
+    width: 50px;
+}
+.fo{
+    margin: auto;
+    width: 200px;
+    height: 20px;
+
+}
+.fo a{
+    text-decoration-line: none;
+}
+#wrong{
+    color: red;
+}

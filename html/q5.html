@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>试试9减这个数</title>
+</head>
+<body>
+    <a href="../index.html">返回主菜单</a>
+
+
+    <script>
+        var m1 = Math.floor(Math.random()*10);
+        alert(m1);
+        if(window.localStorage){
+            localStorage.setItem('time','5');
+            localStorage.setItem('age',localStorage.getItem('age')+(9-m1));
+        }else{
+            alert('玩不了');
+        }
+    </script>
+</body>
+</html>
