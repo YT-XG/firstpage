@@ -48,7 +48,3 @@ for(var i =1;i<as.length-1;i++){
         as[i].style.display= 'inline';
     }
 }
-
-
-console.log(as);
-console.log(localStorage);
