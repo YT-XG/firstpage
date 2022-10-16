@@ -39,7 +39,7 @@ bt2.onclick = function(){
     localStorage.clear();
     location.href='index.html';
 }
-for(var i =1;i<as.length-1;i++){
+for(var i =1;i<as.length-2;i++){
      as[i].style.display= 'none';
 }
 for(var i =1;i<as.length-1;i++){
